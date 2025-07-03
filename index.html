@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mi Sitio con Promoción y Figuras</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.cdnfonts.com/css/insaniburger" rel="stylesheet">
+  <!-- Incluye p5.js para la figura 2D -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js"></script>
+  <script src="sketch2d.js" defer></script>
+  <script src="sketch3d.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Burger King</h1>
+    <div class="seccion">Nuestras hamburguesas</div>
+  <div class="seccion">Demostración</div>
+  <div class="seccion">Mundo de Burgers</div>
+  </header>
+
+  <main>
+    <!-- Sección promoción con recursos gráficos -->
+    <section id="promocion">
+      <h2>Vení a conocer nuestros mejores platillos</h2>
+      <p>Tanto clasicas como nuevas, siempre encontrarás la calidad en nuestras hamburguesas.</p>
+      <p>Desde las Whooper hasta las XL, tenemos de todo
+      para todos.</p>
+      
+      <div class="imagenes-promocion">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIpsFkQVP1Ejy62jNDgKcywGR5kHq8kIz1t1qaMNCJhHy5TtM4ZSIUYpcyX-VuyWdMTNY&usqp=CAU" alt="Recurso gráfico 1" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7EmJNLNpH9QlOZcFgviHpPyutoE5KBS2mzw&s" alt="Recurso gráfico 2" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0hiA5vplXgbVfMUZmZscS9Q0FxU-JiyaNnwP_js5ld4z35ELzjaveEm7uBTMOWH30Ja4&usqp=CAU" alt="Recurso gráfico 3" />
+        <img src="https://media.diariouno.com.ar/p/1da853350e7a749eb60785883ac90f1f/adjuntos/298/imagenes/004/969/0004969075/0002280301jpg.jpg" alt="Recurso gráfico 4" />
+      </div>
+    </section>
+
+    <!-- Sección figura 2D -->
+    <section id="figura2d">
+      <h2>Demostración</h2>
+      <div id="canvas-container"></div>
+      <p>Al igual que las familias de hoy en BK no buscamos ser perfectos sino reales. Por eso, nuestra comida es 100% real, libre de conservantes, colorantes y saborizantes artificiales. Comida para no caretearla. </p>
+<img src="https://i.pinimg.com/originals/79/6d/cb/796dcbe2834d63e3ac6ed0ef59dbfbab.gif" border-radius: 5px>       
+      
+      
+    </section>
+
+    <!-- Sección figura 3D -->
+    <section id="figura3d">
+      <h2>Las mejores hamburguesas del PLANETA</h2>
+      <div id="scene-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Diseño Multimedial - Diseño y Programación Web I - Mañana - B - Omar Toyos - Julio - 2025</p>
+  </footer>
+</body>
+</html>

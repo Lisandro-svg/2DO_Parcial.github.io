@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d2b48c; /* marrón claro */
+  font-family: 'Insaniburger', cursive;
+  color: #fff;
+  stroke-width: 0.2;
+}
+
+/* Header y footer en marrón oscuro */
+header, footer {
+  background-color: #654321; /* marrón oscuro */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Títulos en el sitio */
+h1, h2 {
+  margin: 0 0 5px 0;
+}
+
+/* Sección promoción */
+#promocion {
+  padding: 20px;
+  background-color: #f4a460; /* marrón claro más suave en fondo de sección */
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Texto en la sección promoción */
+#promocion p {
+  margin: 10px 0;
+}
+
+/* Imágenes promocionales alineadas */
+.imagenes-promocion {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.imagenes-promocion img {
+  max-width: 150px;
+  height: auto;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Sección figura 2D */
+#figura2d {
+  padding: 20px;
+  background-color: #f4a460;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: align-center;
+}
+
+#figura3d {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: align-center;
+}
+
+
+/* Canvas container */
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+
+/* Estilo para la figura 3D puede añadirse más adelante si es necesario */
+#scene-container {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
